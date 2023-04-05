@@ -4,7 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      Homepage
+      {/*Homepage*/}
+      <Header />
+      <Nav />
+      <Main />
+      <Footer />
     </div>
   );
 }
