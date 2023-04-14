@@ -1,4 +1,4 @@
-//import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import React from "react";
 import '../App.css';
 /*export default function Nav(props){
@@ -14,22 +14,22 @@ const Nav = () => {
       <nav>
         <ul>
           <li>
-            <a href="index.html">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="index.html">About</a>
+            <a href="/" target="_blank">About</a>
           </li>
           <li>
-            <a href="index.html">Menu</a>
+            <a href="/" target="_blank">Menu</a>
           </li>
           <li>
-            <a href="index.html">Reservations</a>
+            <Link to="/booking">Reservations</Link>
           </li>
           <li>
-            <a href="index.html">Order Online</a>
+            <a href="/" target="_blank">Order Online</a>
           </li>
           <li>
-            <a href="index.html">Log In</a>
+            <a href="/" target="_blank">Log In</a>
           </li>
         </ul>
       </nav>
