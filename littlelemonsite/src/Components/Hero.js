@@ -16,7 +16,8 @@ const Hero = () => {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur
         </p>
-        <button className="yellow-btn">Reserve a Table</button>
+        <a href="/booking">
+        <button className="yellow-btn">Reserve a Table</button></a>
       </div>
       <div className="img-container">
         <img src={HeroImg} />
