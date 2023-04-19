@@ -3,7 +3,7 @@ export default function ConfirmedBooking(props) {
     return (
         <div>
             <h1 className="markazi subtitle">The booking has been confirmed!</h1>
-            <p>Thank you for eating at Little Lemon.</p>
+            <h2>Thank you for eating at Little Lemon.</h2>
         </div>
     )
 }
