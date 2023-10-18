@@ -1,2 +1,2 @@
 # littlelemonsite
-Website for the Little Lemon Restaurant 
+Website for the Little Lemon Restaurant using React.
